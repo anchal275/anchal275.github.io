@@ -30,6 +30,11 @@ html{
 section{
     padding: 100px 0;
 }
+
+#git{
+    margin: auto;
+    text-align: center;
+}
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -89,7 +94,6 @@ section .title::after{
 .navbar.sticky{
     padding: 15px 0;
     background: #2B7A77;
-    ;
 }
 .navbar .max-width{
     display: flex;
@@ -125,6 +129,19 @@ section .title::after{
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
+}
+
+.navbar.sticky #btn{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+#btn{
+    display: inline-block;
+    color: #2B7A77;
+    padding: 10px 25px;
+    border-radius: 6px;
+    border: 2px solid #2B7A77;
+    transition: all 0.3s ease;
 }
 
 /* menu btn styling */
@@ -445,8 +462,8 @@ section .title::after{
     width: 70%;
 } */
 
-/* teams section styling */
-/* .teams .title::after{
+/* teams section styling  */
+ .teams .title::after{
     content: "who with me";
 }
 .teams .carousel .card{
@@ -506,7 +523,7 @@ section .title::after{
 .owl-dot.active,
 .owl-dot:hover{
     background: #2B7A77!important;
-} */
+}
 
 .counter-section {
     background-color: #000;
